@@ -1,0 +1,42 @@
+export const clothes = [
+    {
+        id: 1,
+        name: 'Shirt',
+        image: 'shirt.png',
+        description: 'An upper body garment meant to keep you warm!',
+        category: 'shirt',
+        price: 15,
+    },
+    {
+        id: 2,
+        name: 'Pants',
+        image: 'pants.png',
+        description: 'An lower body garment meant to keep you warm!',
+        category: 'pants',
+        price: 25,
+    },
+    {
+        id: 3,
+        name: 'Hat',
+        image: 'hat.png',
+        description: 'A covering for your head meant to keep you warm!',
+        category: 'hat',
+        price: 10,
+    },
+    {
+        id: 1,
+        name: 'Underwear',
+        image: 'underwear.png',
+        description: 'An under garment meant to keep you warm among other things!',
+        category: 'underwear',
+        price: 15,
+    },
+    {
+        id: 1,
+        name: 'Shoes',
+        image: 'shoes.png',
+        description: 'An covering for the foot meant to keep you warm!',
+        category: 'shoes',
+        price: 15,
+    },
+];
