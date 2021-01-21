@@ -10,7 +10,7 @@ export const clothes = [
     {
         id: 2,
         name: 'Pants',
-        image: 'pants.png',
+        image: 'pants.jpg',
         description: 'An lower body garment meant to keep you warm!',
         category: 'pants',
         price: 25,
@@ -24,7 +24,7 @@ export const clothes = [
         price: 10,
     },
     {
-        id: 1,
+        id: 4,
         name: 'Underwear',
         image: 'underwear.png',
         description: 'An under garment meant to keep you warm among other things!',
@@ -32,9 +32,9 @@ export const clothes = [
         price: 15,
     },
     {
-        id: 1,
+        id: 5,
         name: 'Shoes',
-        image: 'shoes.png',
+        image: 'shoe.png',
         description: 'An covering for the foot meant to keep you warm!',
         category: 'shoes',
         price: 15,
