@@ -13,7 +13,7 @@ export function renderProduct(product){
     li.append(h3);  
 
     image.classList.add('product-image');
-    image.src = `../assets/images/${product.image}`;
+    image.src = `${product.image}`;
     li.append(image);
 
     description.classList.add('product-description');

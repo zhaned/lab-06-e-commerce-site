@@ -2,7 +2,7 @@ export const clothes = [
     {
         id: 1,
         name: 'Shirt',
-        image: 'shirt.png',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Blue_Tshirt.jpg/220px-Blue_Tshirt.jpg',
         description: 'An upper body garment meant to keep you warm!',
         category: 'shirt',
         price: 15,
@@ -10,7 +10,7 @@ export const clothes = [
     {
         id: 2,
         name: 'Pants',
-        image: 'pants.jpg',
+        image: 'https://atlas-content-cdn.pixelsquid.com/stock-images/cargo-pants-0M3qXPF-600.jpg',
         description: 'An lower body garment meant to keep you warm!',
         category: 'pants',
         price: 25,
@@ -18,7 +18,7 @@ export const clothes = [
     {
         id: 3,
         name: 'Hat',
-        image: 'hat.png',
+        image: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4d3d718e-6a73-480c-9dd5-194f27b58c60/d9hv2gi-7202e9c0-ea30-4164-bce9-7cfefccf458e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNGQzZDcxOGUtNmE3My00ODBjLTlkZDUtMTk0ZjI3YjU4YzYwXC9kOWh2MmdpLTcyMDJlOWMwLWVhMzAtNDE2NC1iY2U5LTdjZmVmY2NmNDU4ZS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.lFpN6K58NlUarHSOZK_x7DK0sPyjUFABLGhEnKiyAF8',
         description: 'A covering for your head meant to keep you warm!',
         category: 'hat',
         price: 10,
@@ -26,7 +26,7 @@ export const clothes = [
     {
         id: 4,
         name: 'Underwear',
-        image: 'underwear.png',
+        image: 'https://www.pngitem.com/pimgs/m/543-5435168_boxers-png-underpants-transparent-png.png',
         description: 'An under garment meant to keep you warm among other things!',
         category: 'underwear',
         price: 15,
@@ -34,7 +34,7 @@ export const clothes = [
     {
         id: 5,
         name: 'Shoes',
-        image: 'shoe.png',
+        image: 'https://cdn.shopify.com/s/files/1/1104/4168/products/Allbirds_WL_RN_SF_PDP_Natural_Grey_BTY_10b4c383-7fc6-4b58-8b3f-6d05cef0369c_600x600.png?v=1610061677',
         description: 'An covering for the foot meant to keep you warm!',
         category: 'shoes',
         price: 15,
