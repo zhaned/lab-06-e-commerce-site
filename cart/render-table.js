@@ -8,13 +8,13 @@ export function renderTable(clothes, cartContent){
 
     nameTd.textContent = clothes.name;
     amountTd.textContent = amount;
-    priceTd.textContent = `$ ${priceTotal(clothes, cartContent)}`;
+    priceTd.textContent = `$ ${calcItemTotal(clothes, cartContent)}`;
 
     tr.append(nameTd, amountTd, priceTd);
     return tr;
 }
 
-export function priceTotal(clothes, cartContent){
+export function calcItemTotal(clothes, cartContent){
     const results = cartContent.amount * clothes.price;
     return results;
 }

@@ -1,6 +1,6 @@
 import { cartContent } from './data-for-cart.js';
 import { clothes } from '../products/clothes.js';
-import { renderTable, priceTotal, findId } from './render-table.js';
+import { renderTable, calcItemTotal, findId } from './render-table.js';
 
 let total = 0;
 const table = document.querySelector('table');
@@ -10,7 +10,7 @@ const td = document.createElement('td');
 for (let item of cartContent) {
     const clothId = findId(clothes, item.id);
     
-    const itemTotal = priceTotal(clothId, item);
+    const itemTotal = calcItemTotal(clothId, item);
 
     total = total + itemTotal;
     const tableRowDOM = renderTable(clothId, item);
