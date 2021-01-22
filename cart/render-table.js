@@ -26,3 +26,7 @@ export function findId(array, id){
         }
     }
 }
+
+export function calcOrderTotal(total, itemTotal){
+    return total + itemTotal;
+}
